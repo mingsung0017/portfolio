@@ -1,10 +1,11 @@
 import yfinance as yf
 import streamlit as st
 
+st.title('Streamlit Web App')
 st.write("""
-# Stock History Web App
-### Displaying chosen stock's closing price and volume 
-### YTD with 1 Day interval
+### Stock History Web App
+* Displaying chosen stock's closing price and volume 
+* YTD with 1 Day interval
 """)
 
 #define the default ticker symbol as Apple Inc. 'AAPL'
